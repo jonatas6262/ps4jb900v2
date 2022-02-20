@@ -11,10 +11,12 @@
 <h1 id="msgs">PS4 9.00 Desbloqueio "JonhRic Games"</h1>
 <br>
 <h1 style="font-size:25px;color: #000000;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Payloads Antigos</h1>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button class="btn btn-goldhen21" onclick=load_goldhen21()> GoldHEN 2.1 </button>
-<button class="btn btn-goldhen20b2" onclick=load_goldhen2b2()> GoldHEN 2.0b2 </button>
+<button class="btn btn-goldhen212" onclick=load_goldhen212()> GoldHEN 2.1.2 </button>
+<button class="btn btn-goldhen211" onclick=load_goldhen211()> GoldHEN 2.1.1 </button>
+<button class="btn btn-goldhen21" onclick=load_goldhen21()> GoldHEN 2.1 </button>
 <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button class="btn btn-goldhen20b" onclick=load_goldhen2b()> GoldHEN 2.0b </button>
+<button class="btn btn-goldhen20b2" onclick=load_goldhen2b2()> GoldHEN 2.0b2 </button>
+<button class="btn btn-goldhen20b" onclick=load_goldhen2b()> GoldHEN 2.0b </button>
 <button class="btn" onclick=load_binloader()> Bin Loader </button>
 <br>
 <br>
@@ -79,6 +81,23 @@ PLfile = "goldhen_2.1.bin";
 run_jb = "payload";
 load_payload();
 }
+
+function load_goldhen211(){
+msgs.innerHTML="&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Carregando Jailbreak + GoldHEN v2.1.1... Por favor, Aguarde!!!";
+LoadedMSG="&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;GoldHEN v2.1.1 Carregado...";
+PLfile = "goldhen_2.1.1.bin";
+run_jb = "payload";
+load_payload();
+}
+
+function load_goldhen212(){
+msgs.innerHTML="&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Carregando Jailbreak + GoldHEN v2.1.2... Por favor, Aguarde!!!";
+LoadedMSG="&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;GoldHEN v2.1.2 Carregado...";
+PLfile = "goldhen_2.1.2.bin";
+run_jb = "payload";
+load_payload();
+}
+
 function load_binloader(){
 msgs.innerHTML="Carregando Jailbreak + Bin Loader... Por favor, Aguarde!!!";
 run_jb = "binloader";
